@@ -11,7 +11,12 @@ public class Exercicio17 {
         comprimento = sc.nextDouble();
         System.out.print("Digite o valor da largura -->");
         largura = sc.nextDouble();
-        System.out.println("");
+        System.out.print("Digite o valor da altura -->");
+        altura = sc.nextDouble();
+
+        volume= comprimento*largura*altura;
+
+        System.out.println("O valor do volume é -->" + volume);
 
     }
 }
